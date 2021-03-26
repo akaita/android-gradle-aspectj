@@ -4,7 +4,7 @@
 
 
 ***
-*This is a temporary fork of https://github.com/Archinamon/android-gradle-aspectj , created just to quickly distribute v4.3.0 (only in jcenter)* 
+*This is a temporary fork of https://github.com/Archinamon/android-gradle-aspectj , created just to quickly distribute v4.3.0* 
 ***
 
 A Gradle plugin which enables AspectJ for Android builds.
@@ -48,7 +48,7 @@ Usage
 
 First add a maven repo link into your `repositories` block of module build file:
 ```kotlin
-jcenter()
+mavenCentral()
 ```
 Don't forget to add `mavenCentral()` due to some dependencies inside AspectJ-gradle module.
 
